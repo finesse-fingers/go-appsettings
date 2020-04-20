@@ -10,7 +10,7 @@ go get -u github.com/bkot88/go-appsettings
 ```
 
 ## Usage
-```
+```go
 builder := appsettings.NewConfigurationBuilder()
 builder.AddEnvironmentVariables()
 builder.AddJSONFile("appsettings.local.json")
